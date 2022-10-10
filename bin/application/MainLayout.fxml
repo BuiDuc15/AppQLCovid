@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <center>
+      <StackPane fx:id="stackPaneParent" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <AnchorPane style="-fx-background-color: #4280ef;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../../../../../../Documents/soict_25_years.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="120.0">
+               <children>
+                  <AnchorPane fx:id="anchorPane1" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="paneBorder1" layoutX="-76.0" layoutY="-75.0" prefHeight="200.0" prefWidth="3.0" style="-fx-background-color: #e2e2f6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Text fill="WHITE" layoutX="100.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý Hộ Khẩu,Nhân Khẩu" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Pane fx:id="paneBackGround1" layoutX="-6.0" layoutY="-75.0" opacity="0.3" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchorPane2" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="paneBorder2" prefHeight="50.0" prefWidth="3.0" style="-fx-background-color: #e2e2f6;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Text fill="WHITE" layoutX="77.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý Thu Phí,Đóng Góp" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Pane fx:id="paneBackGround2" layoutX="-18.0" layoutY="-75.0" opacity="0.3" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchorPane3" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="paneBorder3" prefHeight="200.0" prefWidth="3.0" style="-fx-background-color: #e2e2f6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý Sử Dụng Nhà Văn Hóa" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Pane fx:id="paneBackGround3" opacity="0.3" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchorPane4" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="paneBorder4" prefHeight="200.0" prefWidth="3.0" style="-fx-background-color: #e2e2f6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý Lịch Sinh Hoạt Tổ Dân Phố" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Pane fx:id="paneBackGround4" opacity="0.3" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchorPane5" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="paneBorder5" prefHeight="200.0" prefWidth="3.0" style="-fx-background-color: #e2e2f6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý Thông Tin Phản Ánh " AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Pane fx:id="paneBackGround5" opacity="0.3" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchorPane6" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="paneBorder6" prefHeight="200.0" prefWidth="3.0" style="-fx-background-color: #e2e2f6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý TT Phòng Tránh Covid-19" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Pane fx:id="paneBackGround6" opacity="0.3" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchorPane7" prefHeight="50.0" prefWidth="200.0">
+                     <children>
+                        <Pane fx:id="paneBorder7" prefHeight="200.0" prefWidth="3.0" style="-fx-background-color: #e2e2f6;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý Cấp Phần Thưởng" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Pane fx:id="paneBackGround7" opacity="0.3" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

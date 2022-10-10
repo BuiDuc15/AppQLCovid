@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="700.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="50.0" prefWidth="960.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane fx:id="anchorPane1" layoutX="14.0" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #99c340; -fx-background-radius: 4;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label text="Khai Báo Dịch Tễ" textFill="WHITE" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="15.0">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane fx:id="anchorPaneBottom1" layoutX="-50.0" layoutY="-68.0" prefHeight="4.0" prefWidth="140.0" style="-fx-background-color: #4280ef; -fx-background-radius: 0 0 5 5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="anchorPane2" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #f20000; -fx-background-radius: 4;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label text="Thông Tin Cách Ly" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="15.0">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane fx:id="anchorPaneBottom2" layoutX="-15.0" layoutY="-68.0" prefHeight="4.0" prefWidth="140.0" style="-fx-background-color: #4280ef; -fx-background-radius: 0 0 5 5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <StackPane fx:id="stackPaneChildren1" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseDragged="#draged" onMousePressed="#pressed" prefHeight="100.0" prefWidth="400.0" style="-fx-border-color: #41a5ee;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller_tab2.add.AddInfor2Controller">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="110.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label text="Tên">
+                     <VBox.margin>
+                        <Insets top="14.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <TextField fx:id="textFieldTen">
+                     <VBox.margin>
+                        <Insets right="10.0" top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="60.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Button fx:id="buttonOK" layoutX="119.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #41a5ee; -fx-background-radius: 3;" text="OK" textFill="WHITE" AnchorPane.bottomAnchor="13.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="13.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="153.0" layoutY="410.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Button fx:id="buttonCancel" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" style="-fx-background-color: #F08080; -fx-background-radius: 3;" text="Cancel" textFill="WHITE" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="13.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+.table-view-1 .column-header,
+.table-view-1 .column-header .filler,
+.table-view-1 .column-header-background .filler {
+    -fx-background-color:  #b6e8f3;
+    
+}
+.table-view-1  {
+   -fx-selection-bar: #cecece;
+}
